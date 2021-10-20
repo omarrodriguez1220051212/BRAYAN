@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+:root{
+    --background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+    --color-primary: #667eea;
+    --color-secondary: #764ba2;
+    --boton-padding: 20px 40px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    font-weight: 700;
+}
+.nav__items{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight: inherit;
+}
+
+.nav__items--cta{
+    border: 1px solid #fff;
+}
+.navbar-logo{
+    display: inline-block;
+    vertical-align: auto;
+    width: 70px;
+}
+
+.navbar-logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero{
+    height: 100vh;
+    background-image: url(../img/hero1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+.card {
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.86);
+    
+  }
+
+  .card-title {
+    min-height: 3rem;
+  }
+  .card-text {
+    min-height: 10rem;
+  }
